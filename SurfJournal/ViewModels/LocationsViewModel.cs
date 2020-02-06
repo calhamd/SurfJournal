@@ -24,7 +24,7 @@ namespace SurfJournal.ViewModels
             {
                 new SurfLocation()
                 {
-                    Name="Baldy"
+                    Name="Baldie"
                 }
             };
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());           
