@@ -16,11 +16,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\JournalEntriesPage.xaml.cs">
+      <DependentUpon>JournalEntriesPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\LocationsPage.xaml.cs">
       <DependentUpon>LocationsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\SurfboardPage.xaml.cs">
-      <DependentUpon>SurfboardPage.xaml</DependentUpon>
+    <Compile Update="Views\SurfboardsPage.xaml.cs">
+      <DependentUpon>SurfboardsPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -28,7 +31,7 @@
     <EmbeddedResource Update="Views\LocationsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\SurfboardPage.xaml">
+    <EmbeddedResource Update="Views\SurfboardsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
